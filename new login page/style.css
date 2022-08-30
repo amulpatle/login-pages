@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.body {
+  background-color: bisque;
+}
+
+.main-div {
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 50px;
+  border-radius: 10px;
+  background-color: white;
+}
+.box h1 {
+  background: red;
+  color: white;
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.box .namebox {
+  position: relative;
+}
+.box .namebox input {
+  width: 100%;
+  margin-bottom: 5px;
+
+  top: 50px;
+  left: 50px;
+  padding: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: transparent;
+  outline: none;
+  color: rgb(60, 30, 30);
+}
+.box .namebox label {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  font-size: 16px;
+  color: rgb(85, 75, 75);
+  transition: 0.5; */
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  padding-bottom: 10px 10px;
+}
+.box h2 {
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  font-size: 22px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.box input[type="submit"] {
+  padding: 10px 10px;
+  background: transparent;
+  font-size: 22px;
+  background: red;
+  color: white;
+  border: none;
+}
